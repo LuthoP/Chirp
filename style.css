@@ -30,7 +30,9 @@ body {margin: 0; font-family: 'Inter', sans-serif;}
 .top-nav {
     display: inline-flex;
     align-items: center;
-} #top-nav {
+} #top-nav:hover {
+    text-decoration: underline;}
+#top-nav {
     color: #545454;
     padding: 15px 15px;
 } #logo {
