@@ -1,0 +1,259 @@
+* {box-sizing: border-box;}
+body {margin: 0; font-family: 'Inter', sans-serif;}
+.brown-section {
+    background-color: #FAF8F3;
+}
+.white-section {    
+    background-color: #FFFFFF;    
+}
+.blue-section {    
+    background-color: #DAF4F4;    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%; margin: auto;
+    padding: 30px 0;
+}
+.header a {
+    text-decoration: none;
+
+}
+#logo a {
+    color: #506FF3;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.top-nav {
+    display: inline-flex;
+    align-items: center;
+} #top-nav {
+    color: #545454;
+    padding: 15px 15px;
+} #logo {
+    display: inline-flex;
+    align-items: center;
+} #twitterbtn, #twitterbtn2{
+    display: inline-flex;
+    align-items: center;    
+    background-color: #4F98F0;
+    color: #FFFFFF !important;
+    border-radius: 4px;
+    padding: 0 15px;
+} #twitterbtn img, #twitterbtn2 img {
+    padding: 15px 15px 15px 0;
+}
+#hamburger-menu {display: none;}
+
+.main {
+    display: flex;
+    justify-content: space-between;    
+    max-width: 80%;
+    margin: auto;
+    padding-bottom: 5%;    
+} .main a {text-decoration: none;}
+.main-links {
+    display: inline-flex;
+    align-content: center;
+    padding: 30px 0;
+} .main-links div:last-child {
+    padding: 15px;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+} #learn-more {color: #387294;}
+.left-main h1 {font-size: 50px;}
+.left-main p {color: #545454;}
+
+.avatars img {
+    margin-left: -25px;
+}
+.left-main {
+    max-width: 55%;
+}
+.hero-image {max-width: 45%;}
+.hero-image img {
+    max-width: 100%;
+    height: 600px;
+    object-fit: contain;
+}
+
+.features {
+    max-width: 80%;
+    margin: auto;
+    padding: 40px 0;
+} .features h1 {
+    font-size: 40px;
+    max-width: 40%;
+}
+#card-features {
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: space-between;    
+}
+.card-features {
+    border: 1px solid #BEBEBE;
+    border-radius: 4px;
+    max-width: 47.5%;
+    padding: 20px;
+    margin-bottom: 5%;
+} .card-features p {color: #545454;}
+
+.customer-feedback {
+    max-width: 80%;
+    margin: auto;
+    padding: 5% 0;
+} .customer-feedback h1 {font-size: 40px;}
+.tweet-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.tweet {
+    background-color: #FFFFFF;
+    padding: 20px;
+    max-width: 30%;
+    height: min-content;
+    border-radius: 8px;    
+} .tweet p {color: #545454;}
+.tweet-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;      
+} .tweet-head div:first-child img{
+    width: 70px; height: 70px;
+}
+.tweet-content p{line-height: 30px;}
+.handles {
+    flex-grow: 8;
+    padding-left: 5px;
+}
+.handles h1, .handles p {margin: 0;}
+.handles h1 {font-size: 15px;}
+.handles p {font-size: 12px;}
+.tweet-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} .tweet-footer div:first-child p {
+    display: inline;
+    padding-left: 5px;
+} .tweet-footer div:first-child {
+    display: flex;
+    align-items: center;    
+}
+
+.subscription-section {
+    max-width: 40%;
+    margin: auto;
+    padding: 5% 0;
+}
+.subscription-head {
+    text-align: center;
+    margin-bottom: 60px;
+} .subscription-head h1 {
+    font-size: 40px;
+    margin-bottom: 0;    
+}
+.subscription-head p {
+    color: #545454;        
+    font-size: 20px;
+}
+.subscription-card {
+    border: 1px solid #F5BF53;
+    border-radius: 8px;
+    background-color: #FAF8F3;
+    padding: 30px;
+} .subscription-card p {
+    font-size: 20px;
+    color: #545454;
+} 
+.package-deal {
+    display: flex;
+    align-content: center;
+}
+.package-deal p {
+    display: inline-block;
+    padding-left: 10px;
+}
+#trialbtn {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #4F98F0;
+    padding: 20px;
+    margin: 30px 0;
+    border-radius: 8px;
+} #trialbtn a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+} #trialbtn img {padding: 0 5px;}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: auto;
+    padding: 20px 0;  
+} .footer div:last-child {
+    display: flex;
+    flex-direction: row;
+} .footer div:last-child p {
+    font-weight: 600;
+    padding-left: 15px;
+}
+
+@media screen and (max-width: 992px) {
+    .header {max-width: 90%;}
+    #logo a {font-size: 40px;}
+    #top-nav {display: none;}
+    #twitterbtn{display: none;}
+    #twitterbtn2 {padding: 15px;}
+    .main-links {        
+        font-size: 30px;
+    }
+    #hamburger-menu {
+        display: inline-flex;
+        align-items: center;
+    }
+    .main {
+        flex-direction: column-reverse;
+        max-width: 90%;
+        margin: auto;        
+    } .left-main, .hero-image { 
+        max-width: 100%;        
+    }
+    .hero-image img {
+        max-width: 100%;
+        height: auto;
+    }
+    .features {max-width: 90%;}
+    .features h1 {
+        max-width: 100%;
+        font-size: 70px;
+    } .card-features{max-width: 100%;}
+
+    .customer-feedback {max-width: 90%;}
+    .tweet-cards {flex-direction: column;}
+    .tweet {
+        max-width: 100%;
+        margin-bottom: 5%;
+    }
+    .tweet-head div:first-child img {
+        width: 80px; height: 80px;
+    }
+    .handles h1 {font-size: 30px;}
+    .handles p {font-size: 20px;}
+    .tweet-head div:last-child img {
+        width: 80px; height: 40px;
+    }
+    .subscription-section {max-width: 90%;}
+    #trialbtn a{
+        font-size: 30px;
+    }
+    .footer {max-width: 90%;}    
+}
